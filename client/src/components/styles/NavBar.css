@@ -17,18 +17,22 @@ li {
   display: inline-block;
 }
 
-.Links {
+.Table {
   padding-inline-start: 0%;
   list-style-type: none;
   margin: 0;
   vertical-align: middle;
 }
 
-.Link {
+.Links {
   font-size: 30px;
   float: right;
-  padding: 23px;
-  /* font-family: "Abel"; */
+  padding: 25px;
+  font-family: "Abel";
+}
+
+.Link {
+  padding-left: 25px;
 }
 
 a {

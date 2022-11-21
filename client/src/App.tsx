@@ -9,7 +9,9 @@ const Application: React.FunctionComponent<IAppProps> = (props) => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<NavBar />} />
+        <Route path="/" element={<NavBar />}>
+          <Route path="/" element={<Home />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   );
