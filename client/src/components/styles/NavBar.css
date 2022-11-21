@@ -1,0 +1,41 @@
+.NavBar {
+  width: 100vw;
+  background-color: black;
+  color: white;
+  height: 90px;
+  position: sticky;
+}
+
+.Title {
+  font-family: "Rubik Glitch";
+  font-size: 45px;
+  float: left;
+  padding: 20px;
+}
+
+li {
+  display: inline-block;
+}
+
+.Table {
+  padding-inline-start: 0%;
+  list-style-type: none;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.Links {
+  font-size: 30px;
+  float: right;
+  padding: 25px;
+  font-family: "Abel";
+}
+
+.Link {
+  padding-left: 25px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
