@@ -42,16 +42,3 @@ const About: React.FunctionComponent<IInfoProps> = (props) => {
 };
 
 export default About;
-
-/*
-Ben - Team Lead
-Frosty - Team Lead
-Jaden - Team Lead
-Chelsea - Member/Designer
-Michelle - Member/Programmer
-John - Member/Programmer 
-Carolyn - Member/Programmer
-Alex - Member/Programmer 
-Andrew - Member/Programmer 
-Jordan - Member/Programmer 
-*/
