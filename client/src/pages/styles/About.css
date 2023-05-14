@@ -25,3 +25,22 @@
   display: inline-flex;
 
 }
+
+.imageTux {
+  float: left;
+  width: 25%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.teamDescription {
+  display: flex;  
+  font-family: "Abel";
+  font-size: 20px;
+  margin-top: 0;
+  padding-left: 10px;
+}
+
+.container {
+  overflow: hidden;
+}
