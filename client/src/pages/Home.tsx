@@ -1,6 +1,7 @@
 import React from "react";
 import Download from "./Download";
 import Info from "./Info";
+import About from "./About";
 // import tux from "../components/tux.png";
 import "./styles/Home.css";
 
@@ -23,8 +24,8 @@ const Home: React.FunctionComponent<IHomeProps> = (props) => {
       <div className="Background">
         <ul className="GameInfo">
           <li>
-            <p className="GameName">Game Name</p>
-            <p className="Subheading">Currently available for PC & MAC</p>
+            <p className="GameName">CipherGen</p>
+            <p className="Subheading">Currently avaliable</p>
             <p className="Description">
               Short description about game ... lorem ipsum <br />
               dolor sit amet, consectetur adipiscing elit.
@@ -38,6 +39,8 @@ const Home: React.FunctionComponent<IHomeProps> = (props) => {
       <Info />
       <hr />
       <Download />
+      <hr />
+      <About />
     </div>
   );
 };
