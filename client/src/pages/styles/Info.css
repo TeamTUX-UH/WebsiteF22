@@ -19,3 +19,6 @@ margin-bottom: 2rem;
 .patches:before{
   content:"• ";
 }
+.patches{
+  font-weight: bold;
+}

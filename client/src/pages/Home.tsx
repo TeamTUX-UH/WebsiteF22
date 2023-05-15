@@ -32,7 +32,9 @@ const Home: React.FunctionComponent<IHomeProps> = (props) => {
               Short description about game ... lorem ipsum <br />
               dolor sit amet, consectetur adipiscing elit.
             </p>
-            <button>TRAILER</button>
+            <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">
+            <button >TRAILER</button>
+            </a>
             <button ><Link to="Info" spy={true} smooth={true} offset={50} duration={500}>MORE INFO</Link></button>
           </li>
         </ul>
