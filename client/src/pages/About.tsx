@@ -7,7 +7,7 @@ export interface IInfoProps {}
 const About: React.FunctionComponent<IInfoProps> = (props) => {
   return (
     <div>
-      <div className="Background2">
+      <div className="Background2" id="About">
         <div>
           <p className="SubHeading2">About</p><p className="TeamName">CyberTux</p>
           <div className="container">

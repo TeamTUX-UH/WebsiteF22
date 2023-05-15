@@ -10,13 +10,16 @@ export interface IDownloadProps {}
 const Download: React.FunctionComponent<IDownloadProps> = (props) => {
   return (
     <div>
-      <div className="Background2">
+      <div className="Background2" id="Download">
         <p className="Subheading">Download</p>
-        <p className="Description">Available on: <br/></p>   
+        <p className="Description">Available on: 
+        <a className="on-Description"> Windows and Mac</a>
+     </p>   
         <a href="https://github.com/Alexander-B-Coding/CipherGen">
           <button className="install-button">
             INSTALL
           </button>
+          <div className="Description">How to install and run the game</div>
         </a>
       </div>
     </div>

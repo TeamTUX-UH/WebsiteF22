@@ -33,7 +33,16 @@ li {
 
 .Link {
   padding-left: 25px;
+  cursor: pointer;
 }
+.Link:hover{
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+  text-decoration: underline;
+}
+
+
 
 a {
   color: inherit;

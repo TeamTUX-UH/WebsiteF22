@@ -2,6 +2,7 @@ import React from "react";
 import Download from "./Download";
 import Info from "./Info";
 import About from "./About";
+import { Link } from "react-scroll";
 // import tux from "../components/tux.png";
 import "./styles/Home.css";
 import Contact from "./Contact";
@@ -32,7 +33,7 @@ const Home: React.FunctionComponent<IHomeProps> = (props) => {
               dolor sit amet, consectetur adipiscing elit.
             </p>
             <button>TRAILER</button>
-            <button>MORE INFO</button>
+            <button ><Link to="Info" spy={true} smooth={true} offset={50} duration={500}>MORE INFO</Link></button>
           </li>
         </ul>
       </div>

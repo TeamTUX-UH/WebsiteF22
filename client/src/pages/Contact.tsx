@@ -9,7 +9,7 @@ export interface IContactProps {}
 
 const Contact: React.FunctionComponent<IContactProps> = (props) => {
   return (
-    <div className="ContactContainer">
+    <div className="ContactContainer" id="Contact">
       <h1 className="ContactHeader">Contact Us</h1>
       <div className="ContactInputContainer">
         <input placeholder="First Name"></input>

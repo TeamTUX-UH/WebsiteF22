@@ -5,6 +5,10 @@ import "./styles/NavBar.css";
 
 
 const NavBar= () => {
+
+  const nothing = ()=>{
+    return;
+  }
   return (
     <div>
       <div className="NavBar">
@@ -15,16 +19,16 @@ const NavBar= () => {
           <li className="Links">
             <ul>
               <li className="Link">
-                <a>Home</a>
+                <Link to="/" spy={true} smooth={true} offset={50} duration={500} onClick={nothing}>Home</Link>
               </li>
               <li className="Link">
-                <a>Download</a>
+                <Link to="Download" spy={true} smooth={true} offset={50} duration={500}>Download</Link>
               </li>
               <li className="Link">
-                <a >About</a>
+                <Link to="About" spy={true} smooth={true} offset={50} duration={500} >About</Link>
               </li>
               <li className="Link">
-                <a >Contact</a>
+                <Link to="Contact" spy={true} smooth={true} offset={50} duration={500} >Contact</Link>
               </li>
             </ul>
           </li>
