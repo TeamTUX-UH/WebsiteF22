@@ -1,0 +1,61 @@
+.ContactContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background-color: #202020;
+}
+
+.ContactContainer textarea {
+    background-color: rgb(92, 121, 107, 0.25);
+    height: 10rem;
+    width: 100%;
+    font-size: 1.25rem;
+    font-family: "Abel";
+    padding: 0.5rem 0 0 0.5rem;
+    border-radius: 7px;
+    border: 1px solid rgb(255, 255, 255, 0.5);
+    caret-color: rgb(255, 255, 255, 0.5);
+    margin: 0.75rem 0;
+    resize: none;
+}
+
+.ContactContainer textarea::placeholder {
+    color: rgb(255, 255, 255, 0.5);
+}
+
+.ContactContainer button {
+    font-family: "Abel";
+    align-self: flex-end;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.ContactHeader {
+    font-family: "Antonio";
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+.ContactInputContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.ContactInputContainer input {
+    background-color: rgb(92, 121, 107, 0.25);
+    height: 3rem;
+    width: 48.5%;
+    font-size: 1.25rem;
+    font-family: "Abel";
+    padding: 0 0 0 0.5rem;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255, 0.5);
+    caret-color: rgb(255, 255, 255, 0.5);
+    margin: 0.75rem 0;
+}
+
+.ContactInputContainer input::placeholder {
+    color: rgb(255, 255, 255, 0.5);
+}

@@ -4,6 +4,7 @@ import Info from "./Info";
 import About from "./About";
 // import tux from "../components/tux.png";
 import "./styles/Home.css";
+import Contact from "./Contact";
 
 export interface IHomeProps {}
 
@@ -41,6 +42,8 @@ const Home: React.FunctionComponent<IHomeProps> = (props) => {
       <Download />
       <hr />
       <About />
+      <hr />
+      <Contact />
     </div>
   );
 };
