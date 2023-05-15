@@ -21,7 +21,7 @@
 }
 
 .GroupPosition {
-  width: 33.33%;
+  width: 20%;
   display: inline-flex;
 
 }
@@ -43,4 +43,10 @@
 
 .container {
   overflow: hidden;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.description{
+  margin-top: 3rem;
 }

@@ -1,10 +1,10 @@
 import React from "react";
+import { Link } from "react-scroll";
 import { Outlet } from "react-router-dom";
 import "./styles/NavBar.css";
 
-export interface INavBarProps {}
 
-const NavBar: React.FunctionComponent<INavBarProps> = (props) => {
+const NavBar= () => {
   return (
     <div>
       <div className="NavBar">
@@ -15,16 +15,16 @@ const NavBar: React.FunctionComponent<INavBarProps> = (props) => {
           <li className="Links">
             <ul>
               <li className="Link">
-                <a href="home">Home</a>
+                <a>Home</a>
               </li>
               <li className="Link">
-                <a href="download">Download</a>
+                <a>Download</a>
               </li>
               <li className="Link">
-                <a href="about">About</a>
+                <a >About</a>
               </li>
               <li className="Link">
-                <a href="contact">Contact</a>
+                <a >Contact</a>
               </li>
             </ul>
           </li>

@@ -13,8 +13,8 @@ const Download: React.FunctionComponent<IDownloadProps> = (props) => {
       <div className="Background2">
         <p className="Subheading">Download</p>
         <p className="Description">Available on: <br/></p>   
-        <a href="https://github.com/TeamTUX-UH/WebsiteF22">
-          <button>
+        <a href="https://github.com/Alexander-B-Coding/CipherGen">
+          <button className="install-button">
             INSTALL
           </button>
         </a>

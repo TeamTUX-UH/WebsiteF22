@@ -54,8 +54,19 @@
     border: 1px solid rgb(255, 255, 255, 0.5);
     caret-color: rgb(255, 255, 255, 0.5);
     margin: 0.75rem 0;
+    color: white;
 }
 
 .ContactInputContainer input::placeholder {
     color: rgb(255, 255, 255, 0.5);
+}
+
+.SubmitForm:hover{
+    transform: scale(1.1);
+    transition: transform .3s
+}
+
+textarea{
+    color: white;
+    width: 10rem;
 }
