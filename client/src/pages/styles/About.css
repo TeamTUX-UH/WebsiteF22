@@ -1,0 +1,46 @@
+.SubHeading2 {
+  display: inline-block;
+  font-family: "Antonio";
+  font-size: 40px;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+.TeamName {
+  display: inline-block;
+  margin: 0;
+  font-family: "Rubik Glitch";
+  font-size: 50px;
+  margin-left: 10px;
+}
+
+.MemberList li {
+  display: flex;
+  font-family: "Abel";
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.GroupPosition {
+  width: 33.33%;
+  display: inline-flex;
+
+}
+
+.imageTux {
+  float: left;
+  width: 25%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.teamDescription {
+  display: flex;  
+  font-family: "Abel";
+  font-size: 20px;
+  margin-top: 0;
+  padding-left: 10px;
+}
+
+.container {
+  overflow: hidden;
+}
